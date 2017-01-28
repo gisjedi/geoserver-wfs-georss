@@ -2,7 +2,7 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package mil.af.wpafb.geoserver.ageorss.template;
+package mil.af.wpafb.geoserver.georss.template;
 
 import java.io.CharArrayWriter;
 import java.io.IOException;
