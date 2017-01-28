@@ -2,7 +2,7 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package org.geoserver.georss;
+package mil.af.wpafb.geoserver.georss;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -22,10 +22,10 @@ import java.util.logging.Logger;
 
 import javax.xml.namespace.QName;
 
+import mil.af.wpafb.geoserver.georss.template.FeatureTemplate;
 import org.geoserver.catalog.Catalog;
 import org.geoserver.catalog.FeatureTypeInfo;
 import org.geoserver.config.GeoServer;
-import org.geoserver.georss.template.FeatureTemplate;
 import org.geoserver.ows.URLMangler.URLType;
 import org.geoserver.ows.util.ResponseUtils;
 import org.geoserver.platform.Operation;

@@ -6,15 +6,15 @@
  -->
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd"> 
 <beans>
-   <bean id="ShortenedGeoRSSOutputFormat" class="org.geoserver.georss.wfs.RSS20GeoRSSOutputFormat">
+   <bean id="ShortenedGeoRSSOutputFormat" class="mil.af.wpafb.geoserver.georss.wfs.RSS20GeoRSSOutputFormat">
     <constructor-arg ref="geoServer"/>
     <constructor-arg value="georss"/>
   </bean>
-  <bean id="FullyQualifiedGeoRSSOutputFormat" class="org.geoserver.georss.wfs.RSS20GeoRSSOutputFormat">
+  <bean id="FullyQualifiedGeoRSSOutputFormat" class="mil.af.wpafb.geoserver.georss.wfs.RSS20GeoRSSOutputFormat">
     <constructor-arg ref="geoServer"/>
     <constructor-arg value="application/rss+xml"/>
   </bean>
-  <bean id="ShortenedRSSOutputFormat" class="org.geoserver.georss.wfs.RSS20GeoRSSOutputFormat">
+  <bean id="ShortenedRSSOutputFormat" class="mil.af.wpafb.geoserver.georss.wfs.RSS20GeoRSSOutputFormat">
     <constructor-arg ref="geoServer"/>
     <constructor-arg value="rss"/>
   </bean>

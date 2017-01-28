@@ -1,4 +1,4 @@
-package org.geoserver.georss.wfs;
+package mil.af.wpafb.geoserver.georss.wfs;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -9,10 +9,10 @@ import java.util.logging.Logger;
 
 import javax.xml.transform.TransformerException;
 
+import mil.af.wpafb.geoserver.georss.GeoRSSTransformerBase;
+import mil.af.wpafb.geoserver.georss.GeoRSSTransformerBase.GeometryEncoding;
+import mil.af.wpafb.geoserver.georss.RSS20GeoRSSTransformer;
 import org.geoserver.config.GeoServer;
-import org.geoserver.georss.GeoRSSTransformerBase;
-import org.geoserver.georss.GeoRSSTransformerBase.GeometryEncoding;
-import org.geoserver.georss.RSS20GeoRSSTransformer;
 import org.geoserver.platform.Operation;
 import org.geoserver.platform.ServiceException;
 import org.geoserver.wfs.WFSGetFeatureOutputFormat;
